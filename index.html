@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pirámide del Olvido - Escapa Mientras Puedas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header con Logo y Navegación -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/Logo.png" alt="La Pirámide del Olvido" data-tooltip="A escapar.....">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio" class="nav-btn" data-tooltip="¿Y si.... la llave es falsa?">Inicio</a></li>
+                    <li><a href="#juego" class="nav-btn" data-tooltip="¿Y si.... la llave es falsa?">Juego</a></li>
+                    <li><a href="#formulario" class="nav-btn" data-tooltip="¿Y si.... la llave es falsa?">Formulario</a></li>
+                    <li>
+                        <a href="#" class="nav-btn dropdown-toggle" data-tooltip="¿Y si.... la llave es falsa?">Creadores</a>
+                        <ul class="dropdown-menu">
+                            <li>YENNIS MENDEZ TOSCANO</li>
+                            <li>KATERIN DAYANNA GIL ESPINOSA</li>
+                            <li>ANDREA JERALDINE PEÑALOZA AYALA</li>
+                            <li>BRAYAN FELIPE LEMUS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Hero/Inicio -->
+    <section id="inicio" class="hero-section parallax-section">
+        <div class="parallax-bg" style="background-image: url('images/piramide-fondo.png');"></div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="LA PIRÁMIDE DEL OLVIDO">LA PIRÁMIDE DEL OLVIDO</h1>
+            <p class="tagline">ESCAPA MIENTRAS PUEDAS</p>
+            <div class="hero-keys">
+                <img src="images/llave-dorada.png" alt="Llave Dorada" class="floating-key" data-tooltip="¿Y si.... la llave es falsa?">
+                <img src="images/llave-plateada.png" alt="Llave Plateada" class="floating-key delay" data-tooltip="¿Y si.... la llave es falsa?">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre el Juego -->
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Adéntrate en el Misterio</h2>
+                    <p>Explora los oscuros pasillos de una pirámide ancestral donde cada paso puede ser el último. Resuelve enigmas, encuentra llaves ocultas y descubre los secretos que yacen en las profundidades del olvido.</p>
+                    <p>¿Tendrás el valor de enfrentar lo desconocido?</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/personaje-principal.png" alt="Personaje Principal" data-tooltip="Diablos..... donde me metí">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Juego -->
+    <section id="juego" class="game-section">
+        <div class="container">
+            <h2>Juega Ahora</h2>
+            <p class="section-description">Haz clic en el botón para comenzar tu aventura</p>
+            <div class="game-button-container">
+                <a href="https://gd.games/games/eb629080-16bc-4d46-bcd7-596d0acdfce9" target="_blank" class="game-button" data-tooltip="¡Prepárate para el desafío!">
+                    <span class="button-icon">▶</span>
+                    <span class="button-text">INICIAR JUEGO</span>
+                </a>
+            </div>
+            <div class="decorative-keys">
+                <img src="images/llave-dorada.png" alt="Llave" class="deco-key left">
+                <img src="images/llave-plateada.png" alt="Llave" class="deco-key right">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Parallax con Video/Imagen -->
+    <section class="parallax-video-section">
+        <div class="parallax-video-bg" style="background-image: url('images/piramide-fondo.png');"></div>
+        <div class="parallax-overlay">
+            <h2 class="parallax-title">¿PODRÁS ESCAPAR?</h2>
+            <p class="parallax-subtitle">Cada decisión cuenta. Cada paso importa.</p>
+        </div>
+    </section>
+
+    <!-- Sección Características -->
+    <section class="features-section">
+        <div class="container">
+            <h2>Características del Juego</h2>
+            <div class="features-grid">
+                <div class="feature-card" data-tooltip="Explora cada rincón">
+                    <div class="feature-icon">🗝️</div>
+                    <h3>Enigmas Desafiantes</h3>
+                    <p>Resuelve puzzles complejos para avanzar</p>
+                </div>
+                <div class="feature-card" data-tooltip="Atmósfera inmersiva">
+                    <div class="feature-icon">🏛️</div>
+                    <h3>Diseño Atmosférico</h3>
+                    <p>Gráficos pixel art que te transportan</p>
+                </div>
+                <div class="feature-card" data-tooltip="Cada partida es única">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Acción Trepidante</h3>
+                    <p>Escapa antes de que sea tarde</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Formulario -->
+    <section id="formulario" class="form-section">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <p class="section-description">¿Tienes preguntas o comentarios? Escríbenos</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn" data-tooltip="Envía tu mensaje">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 La Pirámide del Olvido. Todos los derechos reservados.</p>
+            <p class="footer-subtitle">Escapa mientras puedas</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
